@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.emart">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.emart.About"></activity>
+        <activity android:name="com.example.emart.AddStock" />
+        <activity android:name="com.example.emart.Shoes" />
+        <activity android:name="com.example.emart.BottomWear" />
+        <activity android:name="com.example.emart.Formals" />
+        <activity android:name="com.example.emart.tShirts" />
+        <activity android:name="com.example.emart.DisplayItem" />
+        <activity android:name="com.example.emart.WomensClothing" />
+        <activity android:name="com.example.emart.MensClothing" />
+        <activity android:name="com.example.emart.OtherItems" />
+        <activity android:name="com.example.emart.Books" />
+        <activity android:name="com.example.emart.Electronics" />
+        <activity android:name="com.example.emart.Clothing" />
+        <activity android:name="com.example.emart.CurrentOrderStatus" />
+        <activity android:name="com.example.emart.AcceptOrders" />
+        <activity android:name="com.example.emart.AddStaff" />
+        <activity android:name="com.example.emart.PlaceOrder" />
+        <activity android:name="com.example.emart.StaffLogin" />
+        <activity android:name="com.example.emart.StaffHomePage" />
+        <activity android:name="com.example.emart.AdminHomePage" />
+        <activity android:name="com.example.emart.AdminLogin" />
+        <activity
+            android:name="com.example.emart.HomePageActivity"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.emart.RegisterPage" />
+        <activity android:name="com.example.emart.LoginPage" />
+        <activity android:name="com.example.emart.RegLogChoice" />
+        <activity android:name="com.example.emart.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
